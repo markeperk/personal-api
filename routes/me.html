@@ -1,0 +1,36 @@
+
+
+<div class="me">
+Name: {{userName}}<br />
+City: {{userLocation}}
+</div>
+<div class="separator">
+</div>
+
+<div class="column">
+	<p><strong>Hobbies: </strong></p>
+	<div class="datacolumn" ng-repeat="hobby in hobbies">
+	{{hobby}}
+	</div>
+</div>
+
+<div class="column">
+	<p><strong>Occupations: </strong></p>
+	<div class="datacolumn" ng-repeat="occ in occupations">
+	{{occ}}
+	</div>
+</div>
+
+<div class="column">
+	<p><strong>Online Mentions: </strong></p>
+	<div class="datacolumn" ng-repeat="mention in mentions">
+	{{mention}}
+	</div>
+</div>
+
+<div class="column">
+	<p><strong>Reference Contacts: </strong></p>
+	<div class="datacolumn" ng-repeat="ref in references">
+	{{ref}}
+	</div>
+</div>
